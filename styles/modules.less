@@ -1,0 +1,213 @@
+.image-box-content{
+    top:50%;
+    left: 0px;
+    right: 0px;
+    margin-top: -65px;
+}
+.image-header{
+    z-index: 3;
+    border-bottom:  none;
+    position: relative;
+
+  h1{
+    padding: 30px 40px 40px 40px;
+    text-transform:uppercase;
+  }
+  h1.personal-details-text{
+    padding: 10px 15px;
+    line-height:53px;
+  }
+
+  .image-sub-text{
+    position: absolute;
+    right: 0;
+    left: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    top:auto;
+    font-size: 18px;
+    bottom: -22px;
+  }
+  .image-sub-text.personal-details-text{
+    top:-10px;
+    bottom: auto;
+    .text{
+      padding: 0 10px;
+    }
+  }
+
+}
+
+.image-header:after{
+    position: absolute;
+    bottom: 0;
+    width: 75px;
+    content: "";
+    right: 0px;
+}
+.image-header:before{
+    position: absolute;
+    bottom: 0;
+    width: 75px;
+    content: "";
+    left: 0px;
+
+}
+
+nav .logo {
+    display: inline-block;
+    height: 85px;
+    box-sizing: border-box;
+    padding: 33px 25px 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: padding 0.3s;
+}
+.l-sticky-header nav .logo {
+    display: inline-block;
+    height: 55px;
+    box-sizing: border-box;
+    padding: 17px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: padding 0.3s;
+}
+
+.nav-item{
+
+    transition: all 0.3s;
+}
+
+.nav-link{
+    border-bottom : 2px solid transparent;
+    line-height: 53px;
+    padding: 15px;
+    text-transform:uppercase;
+    text-decoration:none;
+}
+.l-sticky-header .nav-link{
+    border-bottom : 2px solid transparent;
+    transition: all 0.3s;
+    line-height: 35px;
+    padding: 9px 15px;
+    text-transform:uppercase;
+    text-decoration:none;
+
+}
+
+.personal-details-list{
+  list-style:none;
+  .detail-item{
+    padding: 9px 0;
+  }
+}
+.company-experience{
+  padding-bottom: 50px;
+  margin-bottom: 60px;
+  &:last-child{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+}
+.job-detail{
+  padding-top: 15px;
+  text-align: right;
+  .year{
+    margin-top: 2px;
+    position: relative;
+    padding-bottom: 14px;
+    &:after{
+      position:absolute;
+      bottom:0px;
+      right:0px;
+      width:100px;
+      content: "";
+    }
+
+  }
+  .job-title{
+    font-size: 18px;
+    letter-spacing:1px;
+  }
+
+}
+.job-description {
+  padding-left: 25px;
+}
+.skills{
+  .skills-heading{
+    margin-bottom: 30px;
+  }
+  .skill-name{
+    margin-bottom: 15px;
+  }
+}
+.certifications{
+  .media-object{
+    width: 85px;
+    height: 85px;
+  }
+}
+.checked-list{
+  padding-left: 0px;
+}
+
+
+.contact{
+  padding-top: 60px;
+  .contact-options{
+    color: @contactOptions;
+    margin-top: 60px;
+  }
+
+}
+.icon-block{
+ height: 30px;
+  width: 30px;
+  padding-top: 2px;
+  text-align: center;
+  i{
+    vertical-align: middle;
+    text-align: center;
+  }
+  margin-right: 20px;
+}
+.parallax-overlay{
+  position: absolute;
+  top:0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index:2;
+  background-attachment: scroll;
+  background-repeat: repeat;
+  background-position:0 0;
+}
+
+.item-preview{
+  .img-thumbnail{
+    width: 250px;
+    height: 180px;
+  }
+}
+
+.contact-options{
+  a{
+    color: white;
+  }
+}
+
+.loader_style{
+  position: absolute;
+  top:0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: @loaderScreen;
+  text-align: center;
+  .center{
+    position: relative;
+    color: white;
+    top: 200px;
+  }
+}
